@@ -30,9 +30,15 @@ body { font-family: 'Open Sans', sans-serif; }
   font-weight: 400;
 }
 
+.illustration,
+.education {
+
+}
+
 .illustration {
   display: flex;
   flex-direction: column;
+  width: 312px;
 }
 
 .authenticate {
@@ -53,8 +59,7 @@ body { font-family: 'Open Sans', sans-serif; }
 
 .gh-logo {
   position: relative;
-  margin-left: 102px;
-  margin-bottom: 4px;
+  margin-left: 22px;
   height: auto;
   opacity: 0;
   animation: .3s ease 1s forwards slide-up;
@@ -62,6 +67,7 @@ body { font-family: 'Open Sans', sans-serif; }
 
 .tracker-logo {
   position: relative;
+  margin-left: 55px;
   height: auto;
   opacity: 0;
   animation: .3s ease 2s forwards slide-up;
@@ -75,6 +81,7 @@ body { font-family: 'Open Sans', sans-serif; }
   animation: .3s ease 3s forwards slide-up;
 }
 
+.computer { align-self: flex-end; }
 /* btn */
 .btn {
   display: flex;
@@ -89,8 +96,22 @@ body { font-family: 'Open Sans', sans-serif; }
 .btn-positive {
   color: #fff;
   background: #56AD56;
+  transition: background-color 250ms;
 }
+
+.btn-positive:hover { background: #4B9964; }
 
 .btn-link {
   color: #088BFF;
 }
+
+
+/* media queries */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
