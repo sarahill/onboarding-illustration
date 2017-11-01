@@ -1,0 +1,20 @@
+{
+  "name": "onboarding-illustration",
+  "version": "1.0.0",
+  "description": "## On-boarding for the Pivotal Tracker GitHub integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahill/onboarding-illustration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarahill/onboarding-illustration/issues"
+  },
+  "homepage": "https://github.com/sarahill/onboarding-illustration#readme"
+}
