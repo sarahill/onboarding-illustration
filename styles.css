@@ -7,13 +7,13 @@ body { font-family: 'Open Sans', sans-serif; }
   margin-right: auto;
   align-items: center;
   justify-content: center;
-  max-width: 720px;
-  height: 1000px; /*hack*/
+  max-width: 860px;
 }
 
 .onboarding-container {
   display: flex;
   align-items: center;
+  margin-top: 80px;
 }
 
 .onboarding-title,
@@ -32,7 +32,8 @@ body { font-family: 'Open Sans', sans-serif; }
 
 .illustration,
 .education {
-
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .illustration {
