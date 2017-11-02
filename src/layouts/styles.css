@@ -1,18 +1,10 @@
 body { font-family: 'Open Sans', sans-serif; }
 
-
-.main {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-  justify-content: center;
-}
-
 .onboarding-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 40px;
 }
 
