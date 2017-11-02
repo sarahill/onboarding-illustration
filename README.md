@@ -5,6 +5,6 @@ Built with Gatsby
 https://www.gatsbyjs.org/docs/
 
 ## Build the project locally
-`gatsby serve`
+`gatsby develop`
 
 View at localhost:8000
