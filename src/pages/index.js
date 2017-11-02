@@ -19,7 +19,7 @@ const IndexPage = () => (
       <h1 className="education-title">Integrate your code with Tracker</h1>
       <h2 className="education-text">Authenticate your GitHub account to view and attach code to Tracker stories. See the status of branches and pull requests in context.</h2>
       <div className="authenticate">
-          <a href="#" className="btn btn-positive">Authenticate</a>
+          <a href="#" className="btn btn-positive">Authenticate with GitHub</a>
           <a href="#" className="btn btn-link">Remind me later</a>
       </div>
     </div>
