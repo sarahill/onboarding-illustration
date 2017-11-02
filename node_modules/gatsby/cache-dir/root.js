@@ -1,7 +1,7 @@
 import React, { createElement } from "react"
 import { Router, Route, matchPath, withRouter } from "react-router-dom"
 import { ScrollContext } from "gatsby-react-router-scroll"
-import history from "./history"
+import history from "./dev-history"
 import { apiRunner } from "./api-runner-browser"
 import syncRequires from "./sync-requires"
 import pages from "./pages.json"
@@ -133,26 +133,14 @@ const Root = () =>
               attachToHistory(props.history)
               const { pathname } = props.location
               const pageResources = loader.getResourcesForPathname(pathname)
-              if (pageResources && pageResources.component) {
+              if (pageResources) {
                 return createElement(ComponentRenderer, {
-                  key: `normal-page`,
                   page: true,
                   ...props,
                   pageResources,
                 })
               } else {
-                const dev404Page = pages.find(p => p.path === `/dev-404-page/`)
-                return createElement(Route, {
-                  key: `404-page`,
-                  component: props =>
-                    createElement(
-                      syncRequires.components[dev404Page.componentChunkName],
-                      {
-                        ...props,
-                        ...syncRequires.json[dev404Page.jsonName],
-                      }
-                    ),
-                })
+                return addNotFoundRoute()
               }
             },
           }),

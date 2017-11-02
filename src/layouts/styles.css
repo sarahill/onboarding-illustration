@@ -27,6 +27,11 @@ body { font-family: 'Open Sans', sans-serif; }
   width: 312px;
 }
 
+.logos {
+  display: flex;
+  align-items: flex-start;
+}
+
 .education { width: 320px; }
 
 .education-title,
@@ -42,9 +47,7 @@ body { font-family: 'Open Sans', sans-serif; }
   font-weight: 400;
 }
 
-.authenticate {
-  margin-top: 40px;
-}
+.authenticate { margin-top: 40px; }
 
 /* animation */
 @keyframes slide-up {
@@ -58,32 +61,33 @@ body { font-family: 'Open Sans', sans-serif; }
   }
 }
 
-.gh-logo {
+.gh-logo,
+.tracker-logo,
+.code-block {
   position: relative;
-  margin-left: 22px;
   height: auto;
   opacity: 0;
+}
+
+.gh-logo {
+  margin-left: 22px;
   animation: .3s ease 1s forwards slide-up;
 }
 
 .tracker-logo {
-  position: relative;
   margin-left: 55px;
-  height: auto;
-  opacity: 0;
+  margin-top: 8px;
   animation: .3s ease 2s forwards slide-up;
 }
 
 .code-block {
-  position: relative;
-  height: auto;
   margin-bottom: 8px;
-  opacity: 0;
   animation: .3s ease 3s forwards slide-up;
 }
 
 .computer { align-self: flex-end; }
-/* btn */
+
+/* buttons */
 .btn {
   display: flex;
   justify-content: center;
@@ -102,9 +106,7 @@ body { font-family: 'Open Sans', sans-serif; }
 
 .btn-positive:hover { background: #4B9964; }
 
-.btn-link {
-  color: #088BFF;
-}
+.btn-link { color: #088BFF; }
 
 
 /* media queries */
