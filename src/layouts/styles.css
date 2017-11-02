@@ -67,6 +67,7 @@ body { font-family: 'Open Sans', sans-serif; }
   position: relative;
   height: auto;
   opacity: 0;
+  will-change: opacity;
 }
 
 .gh-logo {
@@ -96,18 +97,25 @@ body { font-family: 'Open Sans', sans-serif; }
   padding-bottom: 11px;
   text-decoration: none;
   border-radius: 3px;
+  transition: all 180ms ease-in-out;
 }
 
 .btn-positive {
   color: #fff;
   background: #56AD56;
-  transition: background-color 250ms;
 }
 
-.btn-positive:hover { background: #4B9964; }
+.btn-positive:hover {
+  background: #4B9964;
+  box-shadow: inset 0px -2px 0 rgba(0, 0, 0, 0.25);
+}
 
-.btn-link { color: #088BFF; }
+.btn-link {
+  margin-top: 8px;
+  color: #088BFF;
+}
 
+.btn-link:hover { background: #eee; }
 
 /* media queries */
 /* Small devices (tablets, 768px and up) */
