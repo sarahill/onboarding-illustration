@@ -1,0 +1,129 @@
+body { font-family: 'Open Sans', sans-serif; }
+
+.onboarding-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  transition: all 250ms;
+}
+
+@media (min-width: 992px) {
+  .onboarding-container {
+    flex-direction: row;
+    margin-top: 80px;
+  }
+}
+
+.illustration,
+.education {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+}
+
+.logos {
+  display: flex;
+  align-items: flex-start;
+}
+
+.education { width: 320px; }
+
+.education-title,
+.education-text {
+  line-height: 1.5;
+  color: #24272D;
+}
+
+.education-title { font-size: 24px; }
+
+.education-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.authenticate { margin-top: 40px; }
+
+/* animation */
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.gh-logo,
+.tracker-logo,
+.code-block {
+  position: relative;
+  height: auto;
+  opacity: 0;
+  will-change: opacity;
+}
+
+.gh-logo {
+  margin-left: 22px;
+  animation: .3s ease 1s forwards slide-up;
+}
+
+.tracker-logo {
+  margin-left: 55px;
+  margin-top: 8px;
+  animation: .3s ease 2s forwards slide-up;
+}
+
+.code-block {
+  margin-bottom: 8px;
+  animation: .3s ease 3s forwards slide-up;
+}
+
+.computer { align-self: flex-end; }
+
+/* buttons */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: all 180ms ease-in-out;
+}
+
+.btn-positive {
+  color: #fff;
+  background: #56AD56;
+}
+
+.btn-positive:hover {
+  background: #4B9964;
+  box-shadow: inset 0px -2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-link {
+  margin-top: 8px;
+  color: #088BFF;
+}
+
+.btn-link:hover { background: #eee; }
+
+/* media queries */
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

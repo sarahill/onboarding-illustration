@@ -1,5 +1,13 @@
-# CSS animation
+# gatsby-starter-default
+The default Gatsby starter
 
-## On-boarding for the Pivotal Tracker GitHub integration
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
 
-Tracker has not historically presented users with big calls to action around newly released features. This is an exploration of how we might approach an educational walktrhough.
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+```
+gatsby new gatsby-example-site
+```
+
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
