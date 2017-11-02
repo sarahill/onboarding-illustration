@@ -1,16 +1,14 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "component": "/Users/pivotal/onboarding-illustration/.cache/dev-404-page.js",
+      "path": "/dev-404-page/",
+      "componentChunkName": "component---cache-dev-404-page-js",
       "layout": "index",
       "jsonName": "dev-404-page.json",
       "internalComponentName": "ComponentDev404Page",
-      "path": "/dev-404-page/",
-      "component": "/Users/pivotal/onboarding-illustration/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1509647835238,
+      "updatedAt": 1509662095910,
+      "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
       "componentPath": "/Users/pivotal/onboarding-illustration/.cache/dev-404-page.js",
@@ -19,7 +17,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "63ed867d66c90365687629c087aea278",
+        "contentDigest": "5ac720e20e64d32453f168a3554aa0f5",
         "owner": "internal-data-bridge"
       }
     },
@@ -29,12 +27,8 @@
       "name": "component-page-creator",
       "version": "1.0.0",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [
-        "createPagesStatefully"
-      ],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration/node_modules/gatsby/dist/internal-plugins/component-page-creator",
       "packageJson": {
         "name": "component-page-creator",
@@ -51,13 +45,12 @@
         "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0b5e0f75db3e4f93b8d21ca0af22aa1a",
+        "contentDigest": "c1e6dce9f6cc97b35e5aec83361f639a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -68,12 +61,8 @@
       "name": "component-layout-creator",
       "version": "1.0.0",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [
-        "createLayouts"
-      ],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
@@ -90,13 +79,12 @@
         "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3c04672db7a75536866fdd4e30b8b343",
+        "contentDigest": "c5b56a5f0977b43791d2c68b5495b40d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -107,13 +95,8 @@
       "name": "internal-data-bridge",
       "version": "1.0.0",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [
-        "sourceNodes",
-        "onCreatePage"
-      ],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
@@ -126,13 +109,12 @@
         "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4a3cc0aa8f9ca217363c35687999539e",
+        "contentDigest": "e47ac1fb580101dbb0d326e2638f1f0e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -143,12 +125,8 @@
       "name": "dev-404-page",
       "version": "1.0.0",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [
-        "createPages"
-      ],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
@@ -161,13 +139,12 @@
         "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "32939bbcc03a70f94d8b7563f64b4e61",
+        "contentDigest": "192bc68f1b69c90e60589f259939caea",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -178,12 +155,8 @@
       "name": "prod-404",
       "version": "1.0.0",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [
-        "onCreatePage"
-      ],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
@@ -196,13 +169,12 @@
         "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7fa0f9f12141b387f79b3ff644802c44",
+        "contentDigest": "5e7dabee788d5216fb17c1505e6e7653",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -213,13 +185,8 @@
       "name": "query-runner",
       "version": "1.0.0",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [
-        "onCreatePage",
-        "onCreateLayout"
-      ],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
@@ -232,13 +199,12 @@
         "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b325d8d7d86e944871c76d5a5f35a6ec",
+        "contentDigest": "b278432fe832bd49d1978145e28c9544",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -249,10 +215,8 @@
       "name": "gatsby-plugin-react-helmet",
       "version": "1.0.8",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
@@ -262,41 +226,38 @@
         "keywords": [
           "gatsby"
         ],
-        "author": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;",
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
         "license": "MIT",
         "dependencies": [
           {
             "name": "babel-runtime",
-            "version": "^6.26.0",
-            "_PARENT": "SOURCE"
+            "version": "^6.26.0"
           },
           {
             "name": "react-helmet",
-            "version": "^5.1.3",
-            "_PARENT": "SOURCE"
+            "version": "^5.1.3"
           }
         ],
         "devDependencies": [
           {
             "name": "babel-cli",
-            "version": "^6.26.0",
-            "_PARENT": "SOURCE"
+            "version": "^6.26.0"
           },
           {
             "name": "cross-env",
-            "version": "^5.0.5",
-            "_PARENT": "SOURCE"
+            "version": "^5.0.5"
           }
         ],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "da20fbb20ef7469a701d4c35b302c4a7",
+        "contentDigest": "0148eb729182693eed634dbf058c43c8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -307,10 +268,8 @@
       "name": "default-site-plugin",
       "version": "ad513af3f4798acedeb6460d485e676d",
       "pluginOptions": {
-        "plugins": [],
-        "_PARENT": "SOURCE"
+        "plugins": []
       },
-      "nodeAPIs": [],
       "pluginFilepath": "/Users/pivotal/onboarding-illustration",
       "packageJson": {
         "name": "gatsby-starter-default",
@@ -325,70 +284,66 @@
         "dependencies": [
           {
             "name": "gatsby",
-            "version": "^1.9.73",
-            "_PARENT": "SOURCE"
+            "version": "^1.9.73"
           },
           {
             "name": "gatsby-link",
-            "version": "^1.6.22",
-            "_PARENT": "SOURCE"
+            "version": "^1.6.22"
           },
           {
             "name": "gatsby-plugin-react-helmet",
-            "version": "^1.0.8",
-            "_PARENT": "SOURCE"
+            "version": "^1.0.8"
+          },
+          {
+            "name": "normalize.css",
+            "version": "^7.0.0"
           }
         ],
         "devDependencies": [
           {
             "name": "prettier",
-            "version": "^1.7.4",
-            "_PARENT": "SOURCE"
+            "version": "^1.7.4"
           }
         ],
         "peerDependencies": [],
         "optionalDependecies": [],
-        "bundledDependecies": [],
-        "_PARENT": "SOURCE"
+        "bundledDependecies": []
       },
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "76c09d7324d6580fc7089d5dada8aed3",
+        "contentDigest": "d6d6b53bf5b782316a4f92c70eb9fd5c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "On-boarding example",
-        "_PARENT": "SOURCE"
+        "title": "On-boarding example"
       },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-11-02T18:37:13.562Z",
+      "buildTime": "2017-11-02T22:34:54.322Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ee9a93a50fc82dedd520f78e7432fc41",
+        "contentDigest": "3f7e65f5b46290a04995347fefd2ba4a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404/": {
-      "layout": "index",
-      "jsonName": "404.json",
-      "internalComponentName": "Component404",
       "path": "/404/",
       "component": "/Users/pivotal/onboarding-illustration/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1509647835245,
+      "layout": "index",
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "updatedAt": 1509662095915,
+      "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/pivotal/onboarding-illustration/src/pages/404.js",
@@ -397,21 +352,19 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1cb36f8e28d9447985f249a7533fd631",
+        "contentDigest": "01f6e5986108a91d9f21a5d359495e5a",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
       "path": "/",
       "component": "/Users/pivotal/onboarding-illustration/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1509647835245,
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "updatedAt": 1509662095916,
+      "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/pivotal/onboarding-illustration/src/pages/index.js",
@@ -420,21 +373,19 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "77f10a11044939a142632bfbe28b22c9",
+        "contentDigest": "44a8a6eee7dc5eb0b20d7cfed70e4ef2",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
       "path": "/page-2/",
       "component": "/Users/pivotal/onboarding-illustration/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1509647835246,
+      "layout": "index",
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "updatedAt": 1509662095916,
+      "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
       "componentPath": "/Users/pivotal/onboarding-illustration/src/pages/page-2.js",
@@ -443,21 +394,19 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f977c7418015cc32528f817119fa1abe",
+        "contentDigest": "c9767bfdd2c826e220df7670c93945e3",
         "owner": "internal-data-bridge"
       }
     },
     "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
       "path": "/404.html",
       "component": "/Users/pivotal/onboarding-illustration/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
-      "context": {
-        "_PARENT": "SOURCE"
-      },
-      "updatedAt": 1509647835248,
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "updatedAt": 1509662095918,
+      "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
       "componentPath": "/Users/pivotal/onboarding-illustration/src/pages/404.js",
@@ -466,14 +415,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "334f1a2ca528eafcb8c72a5382e994a2",
+        "contentDigest": "ed2b487dc1406e4852111042d0382c64",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "4eb30d372aeb1a0d1fe683354a9ee8a3"
+    "PLUGINS_HASH": "409460b916c3105702b131e1c6ecea6d"
   },
   "componentDataDependencies": {
     "nodes": {},
