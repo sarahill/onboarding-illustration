@@ -33,6 +33,21 @@ body { font-family: 'Open Sans', sans-serif; }
   align-items: flex-start;
 }
 
+.signal {
+    display: flex;
+    flex-direction: column;
+}
+
+.signal-dot {
+  width: 6px;
+  height: 6px;
+  margin-bottom: 6px;
+  margin-left: 140px;
+  background: #45AFFF;
+  border-radius: 100%;
+  opacity: 0;
+}
+
 .education { width: 320px; }
 
 .education-title,
@@ -53,12 +68,21 @@ body { font-family: 'Open Sans', sans-serif; }
 /* animation */
 @keyframes slide-up {
   0% {
-    opacity: 0;
     top: 30px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
   }
   100% {
     opacity: 1;
-    top: 0;
   }
 }
 
@@ -71,20 +95,32 @@ body { font-family: 'Open Sans', sans-serif; }
   will-change: opacity;
 }
 
+.signal-dot.dot-bottom {
+  animation: 1s ease 1s forwards fade-in infinite;
+}
+
+.signal-dot.dot-middle {
+  animation: 1s ease 1.75s forwards fade-in infinite;
+}
+
+.signal-dot.dot-top {
+  animation: 1s ease 2.5s forwards fade-in infinite;
+}
+
 .gh-logo {
   margin-left: 22px;
-  animation: .3s ease 1s forwards slide-up;
+  animation: .3s ease 3s forwards slide-up;
 }
 
 .tracker-logo {
   margin-left: 55px;
   margin-top: 8px;
-  animation: .3s ease 2s forwards slide-up;
+  animation: .3s ease 4s forwards slide-up;
 }
 
 .code-block {
   margin-bottom: 8px;
-  animation: .3s ease 3s forwards slide-up;
+  animation: .3s ease 5s forwards slide-up;
 }
 
 .computer { align-self: flex-end; }

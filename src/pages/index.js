@@ -13,6 +13,11 @@ const IndexPage = () => (
         <img className="tracker-logo" src={trackerlogo} alt="tracker logo" width="45px" height="49px" />
         <img className="gh-logo" src={ghlogo} alt="github logo" width="41px" height="41px" />
       </div>
+      <div className="signal">
+        <div className="signal-dot dot-top"></div>
+        <div className="signal-dot dot-middle"></div>
+        <div className="signal-dot dot-bottom"></div>
+      </div>
       <img className="computer" src={computerimage} alt="computer" width="272px" height="263px;" />
     </div>
     <div className="education">
